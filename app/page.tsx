@@ -435,16 +435,6 @@ export default function Page() {
             </div>
             <div className="grid gap-4 sm:grid-cols-2">
               <a
-                href="tel:+375256899697"
-                className="rounded-xl border border-white/15 bg-white/5 p-5 transition hover:bg-white/10"
-              >
-                <p className="text-xs text-white/55">Командир группы</p>
-                <p className="mt-1 font-bold">Черняев Денис Олегович</p>
-                <p className="mt-4 flex items-center gap-2 text-lg font-black text-[#d8b36d]">
-                  <Phone className="size-4" /> +375 25 689 96 97
-                </p>
-              </a>
-              <a
                 href="tel:+375297642827"
                 className="rounded-xl border border-white/15 bg-white/5 p-5 transition hover:bg-white/10"
               >
@@ -452,6 +442,16 @@ export default function Page() {
                 <p className="mt-1 font-bold">Гурский Александр Михайлович</p>
                 <p className="mt-4 flex items-center gap-2 text-lg font-black text-[#d8b36d]">
                   <Phone className="size-4" /> +375 29 764 28 27
+                </p>
+              </a>
+              <a
+                href="tel:+375256899697"
+                className="rounded-xl border border-white/15 bg-white/5 p-5 transition hover:bg-white/10"
+              >
+                <p className="text-xs text-white/55">Командир группы</p>
+                <p className="mt-1 font-bold">Черняев Денис Олегович</p>
+                <p className="mt-4 flex items-center gap-2 text-lg font-black text-[#d8b36d]">
+                  <Phone className="size-4" /> +375 25 689 96 97
                 </p>
               </a>
               <a
