@@ -18,7 +18,8 @@ const img6 = "/images/6 (Нам доверяют).png";
 const img8 = "/images/8 (Горжусь папой).png";
 const logo110 = "/images/110_лет_в едином строю.png";
 const logoGUVD = "/images/Эмблема ГУВД.png";
-const videoSrc = "/ГУВД(1080p).mp4";
+const videoSrc =
+  "https://vkjddfgbkhmwkxnslaxk.supabase.co/storage/v1/object/public/video/video.mp4";
 
 const benefits = [
   {
