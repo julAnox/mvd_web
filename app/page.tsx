@@ -186,6 +186,10 @@ export default function Page() {
           </a>
         </div>
       </header>
+<<<<<<< HEAD
+=======
+
+>>>>>>> d436d144de1db1be023f4a1c5f4235ca6f647e71
       <section className="relative mx-auto grid max-w-7xl gap-8 px-4 pb-12 pt-8 sm:px-5 sm:pt-10 lg:grid-cols-[1.05fr_.95fr] lg:items-center lg:px-10 lg:pb-24 lg:pt-16">
         <div className="pointer-events-none absolute -right-24 top-8 size-64 rounded-full bg-[#d8b36d]/15 blur-3xl" />
         <div className="pointer-events-none absolute -left-32 bottom-0 size-72 rounded-full bg-[#4c91c7]/10 blur-3xl" />
@@ -255,6 +259,7 @@ export default function Page() {
           </div>
         </div>
       </section>
+<<<<<<< HEAD
       <section id="video" className="bg-[#e9f0f6] px-4 py-14 sm:px-5 lg:py-20">
         <div className="mx-auto max-w-7xl">
           <div className="mb-6">
@@ -289,6 +294,9 @@ export default function Page() {
           </div>
         </div>
       </section>
+=======
+
+>>>>>>> d436d144de1db1be023f4a1c5f4235ca6f647e71
       <section
         id="gallery"
         className="bg-[#09294f] px-4 py-14 text-white sm:px-5 lg:py-20"
@@ -322,6 +330,12 @@ export default function Page() {
                   />
                 </div>
                 <div className="flex flex-col justify-center p-7 sm:p-10">
+<<<<<<< HEAD
+=======
+                  <span className="text-xs font-bold uppercase tracking-[0.22em] text-[#d8b36d]">
+                    0{index + 1} / История службы
+                  </span>
+>>>>>>> d436d144de1db1be023f4a1c5f4235ca6f647e71
                   <h3 className="mt-3 text-2xl font-black tracking-tight text-white sm:text-3xl">
                     {item.label}
                   </h3>
@@ -335,6 +349,44 @@ export default function Page() {
         </div>
       </section>
 
+<<<<<<< HEAD
+=======
+      <section id="video" className="bg-[#e9f0f6] px-4 py-14 sm:px-5 lg:py-20">
+        <div className="mx-auto max-w-7xl">
+          <div className="mb-6">
+            <p className="text-xs font-bold uppercase tracking-[0.22em] text-[#b7893e]">
+              Видео о службе
+            </p>
+            <h2 className="mt-3 text-3xl font-black tracking-tight text-[#09294f] sm:text-4xl">
+              Посмотрите, как устроена служба
+            </h2>
+          </div>
+          <div className="overflow-hidden rounded-2xl border-4 border-white bg-[#09294f] shadow-xl">
+            {videoSrc ? (
+              <video
+                src={videoSrc}
+                controls
+                autoPlay
+                muted
+                loop
+                playsInline
+                className="aspect-video w-full object-cover"
+              />
+            ) : (
+              <div className="flex aspect-video items-center justify-center px-6 text-center text-sm text-white/65">
+                Добавьте путь к видео в переменную{" "}
+                <code className="mx-1 rounded bg-white/10 px-1.5 py-0.5 text-[#d8b36d]">
+                  videoSrc
+                </code>{" "}
+                в файле страницы — после этого ролик будет воспроизводиться
+                автоматически.
+              </div>
+            )}
+          </div>
+        </div>
+      </section>
+
+>>>>>>> d436d144de1db1be023f4a1c5f4235ca6f647e71
       <section id="conditions" className="bg-white py-16 lg:py-20">
         <div className="mx-auto max-w-7xl px-5 lg:px-10">
           <div className="mb-10 flex flex-col justify-between gap-4 md:flex-row md:items-end">
@@ -369,6 +421,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+<<<<<<< HEAD
+=======
+
+>>>>>>> d436d144de1db1be023f4a1c5f4235ca6f647e71
       <section
         id="about"
         className="mx-auto grid max-w-7xl gap-10 px-5 py-16 lg:grid-cols-[.9fr_1.1fr] lg:px-10 lg:py-24"
@@ -410,6 +466,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+<<<<<<< HEAD
+=======
+
+>>>>>>> d436d144de1db1be023f4a1c5f4235ca6f647e71
       <section id="contacts" className="bg-[#09294f] text-white">
         <div className="mx-auto max-w-7xl px-5 py-14 lg:px-10 lg:py-20">
           <div className="grid gap-10 lg:grid-cols-[1fr_1.1fr] lg:items-end">
